@@ -4,7 +4,7 @@ public interface Relatorio {
 }
 
 // Relatório Concreto A
-public class RelatorioA implements Relatorio {
+     class RelatorioA implements Relatorio {
     public void aceitar(VisitorExportacao visitor) {
         visitor.visitarRelatorioA(this);
     }
@@ -13,7 +13,7 @@ public class RelatorioA implements Relatorio {
 }
 
 // Relatório Concreto B
-public class RelatorioB implements Relatorio {
+    class RelatorioB implements Relatorio {
     public void aceitar(VisitorExportacao visitor) {
         visitor.visitarRelatorioB(this);
     }
