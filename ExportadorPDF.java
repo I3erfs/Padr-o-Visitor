@@ -10,7 +10,7 @@ public class ExportadorPDF implements VisitorExportacao {
 }
 
 // Implementação para XML
-public class ExportadorXML implements VisitorExportacao {
+ class ExportadorXML implements VisitorExportacao {
     public void visitarRelatorioA(RelatorioA relatorio) {
         System.out.println("Exportando " + relatorio.getDados() + " para XML.");
     }
